@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "spacedwog",
+    "password": "KIMERAbeta12@",
+    "database": "spacedwog",
+    "host": "spacedwog.mysql.uhserver.com",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "spacedwog",
+    "password": "KIMERAbeta12@",
+    "database": "spacedwog",
+    "host": "spacedwog.mysql.uhserver.com",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "spacedwog",
+    "password": "KIMERAbeta12@",
+    "database": "spacedwog",
+    "host": "spacedwog.mysql.uhserver.com",
+    "dialect": "mysql"
+  }
+}
