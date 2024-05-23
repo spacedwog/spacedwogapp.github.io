@@ -17,16 +17,16 @@ export default function TabOneScreen() {
       <EditScreenInfo path="app/(tabs)/index.tsx" />
       <StatusBar style='auto'></StatusBar>
       <Button
-        title="Serviço-1"
-        onPress={() => openURL('https://loja.infinitepay.io/spacedwog/ist1936-plano-de-desenvolvimento-de-aplicativos-mo')}
+        title="Desenvolvimento de Aplicativos"
+        onPress={() => openURL('https://loja.infinitepay.io/spacedwog/ghp6758-plano-de-desenvolvimento-de-aplicativos')}
       ></Button>
       <Button
-        title="Serviço-2"
+        title="Desenvolvimento de Webpage"
         onPress={() => openURL('https://loja.infinitepay.io/spacedwog/uty6194-plano-de-desenvolvimento-de-aplicativos-we')}
       ></Button>
       <Button
-        title="Serviço-3"
-        onPress={() => openURL('https://loja.infinitepay.io/spacedwog/ghp6758-plano-de-desenvolvimento-de-aplicativos')}
+        title="Desenvolvimento de APP Mobile"
+        onPress={() => openURL('https://loja.infinitepay.io/spacedwog/ist1936-plano-de-desenvolvimento-de-aplicativos-mo')}
       ></Button>
     </View>
   );
