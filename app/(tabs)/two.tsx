@@ -12,7 +12,7 @@ export default function TabTwoScreen() {
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="app/(tabs)/two.tsx" />
       <Button
-        title="Produto"
+        title="Interface Web"
         onPress={() => openURL('https://loja.infinitepay.io/spacedwog/csr1476-interface-web')}
       ></Button>
     </View>
