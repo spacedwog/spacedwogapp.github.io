@@ -7,7 +7,6 @@ import { StatusBar } from 'expo-status-bar';
 import {Buffer} from 'buffer';
 import { openURL } from 'expo-linking';
 
-
 export default function TabOneScreen() {
   global.Buffer = Buffer;
   const Sequelize = require('sequelize');
