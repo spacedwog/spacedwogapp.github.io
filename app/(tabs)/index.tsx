@@ -10,6 +10,7 @@ import { openURL } from 'expo-linking';
 
 export default function TabOneScreen() {
   global.Buffer = Buffer;
+  const Sequelize = require('sequelize');
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Spacedwog TI(Sua solução na web)</Text>
