@@ -5,7 +5,6 @@ import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 import { StatusBar } from 'expo-status-bar';
 import { openURL } from 'expo-linking';
-import './shim';
 
 export default function TabOneScreen() {
   return (
