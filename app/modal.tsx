@@ -8,6 +8,7 @@ export default function ModalScreen() {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Spacedwog TI(Sua solução na web)</Text>
+      <Text id='lista_projetos'></Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="app/modal.tsx" />
 
@@ -33,7 +34,3 @@ const styles = StyleSheet.create({
     width: '80%',
   },
 });
-
-function getData() {
-  throw new Error('Function not implemented.');
-}
