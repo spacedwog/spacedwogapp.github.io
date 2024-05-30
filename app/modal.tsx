@@ -5,6 +5,9 @@ import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
 export default function ModalScreen() {
+  <script src='database.js'>
+    getData();
+  </script>
   return (
     <View style={styles.container}>
     <Text style={styles.title}>Spacedwog TI(Sua solução na web)</Text>
@@ -33,3 +36,7 @@ const styles = StyleSheet.create({
     width: '80%',
   },
 });
+
+function getData() {
+  throw new Error('Function not implemented.');
+}

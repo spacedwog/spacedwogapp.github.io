@@ -16,4 +16,6 @@ pool.query('select * from projetos', (err, result, fields)=>{
     return console.log(result);
 });
 
-module.exports = pool;
+function getData(){
+    return pool;
+}
