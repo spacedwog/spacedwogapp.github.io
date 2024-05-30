@@ -3,7 +3,7 @@ import { Platform, StyleSheet } from 'react-native';
 
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
-import { useState, ReactDOM } from 'react';
+import { useState } from 'react';
 
 function MyForm() {
   const [name, setName] = useState("");
