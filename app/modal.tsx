@@ -7,9 +7,7 @@ import { Text, View } from '@/components/Themed';
 export default function ModalScreen() {
   return (
     <View style={styles.container}>
-      <script src="./database.js">
-      </script>
-    <Text style={styles.title}>Spacedwog TI(Sua solução na web)</Text>
+      <Text style={styles.title}>Spacedwog TI(Sua solução na web)</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
       <EditScreenInfo path="app/modal.tsx" />
 
