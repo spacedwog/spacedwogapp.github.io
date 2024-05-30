@@ -4,6 +4,7 @@ import { Platform, StyleSheet } from 'react-native';
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 import { useState } from 'react';
+import ReactDOM from 'react-dom/client';
 
 function MyForm() {
   const [name, setName] = useState("");
