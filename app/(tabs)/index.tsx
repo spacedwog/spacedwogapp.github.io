@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyleSheet, Button } from 'react-native';
 
-import EditScreenInfo from '@/components/EditScreenInfo';
-import { Text, View } from '@/components/Themed';
-import { StatusBar } from 'expo-status-bar';
-import { openURL } from 'expo-linking';
 import { Buffer } from 'buffer';
+import { openURL } from 'expo-linking';
+import { StatusBar } from 'expo-status-bar';
+import { Text, View } from '@/components/Themed';
+import EditScreenInfo from '@/components/EditScreenInfo';
 
-export default function TabOneScreen() {
+export default function TabOneScreen(){
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Spacedwog TI(Sua solução na web)</Text>
