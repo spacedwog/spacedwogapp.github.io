@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, Button } from 'react-native';
 
-import { Buffer } from 'buffer';
 import { openURL } from 'expo-linking';
 import { StatusBar } from 'expo-status-bar';
 import { Text, View } from '@/components/Themed';
