@@ -1,0 +1,15 @@
+
+.container {
+    flex: 1;
+    alignItems: 'center';
+    justifyContent: 'center';
+}
+.container .title {
+    fontSize: 20;
+    fontWeight: 'bold';
+}
+.container .separator {
+    marginVertical: 30;
+    height: 1;
+    width: '80%';
+}
