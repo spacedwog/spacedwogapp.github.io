@@ -4,6 +4,7 @@ import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
 import { openURL } from 'expo-linking';
+import React from 'react';
 
 export default function TabConfigScreen() {
   return (
