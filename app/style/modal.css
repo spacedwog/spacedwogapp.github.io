@@ -1,15 +1,15 @@
 
 .container {
     flex: 1;
-    alignItems: 'center';
-    justifyContent: 'center';
+    align-items: 'center';
+    justify-content: 'center';
 }
 .container .title {
-    fontSize: 20;
-    fontWeight: 'bold';
+    font-size: 20;
+    font-weight: 'bold';
 }
 .container .separator {
-    marginVertical: 30;
+    margin-inline-start: 30;
     height: 1;
     width: '80%';
 }
