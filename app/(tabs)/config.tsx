@@ -5,14 +5,14 @@ import { Text, View } from '@/components/Themed';
 
 import { openURL } from 'expo-linking';
 
-export default function TabThreeScreen() {
+export default function TabConfigScreen() {
   return (
     <View style={styles.container}>
     <Text style={styles.title}>Spacedwog TI(Sua solução na web)</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/three.tsx" />
+      <EditScreenInfo path="app/(tabs)/config.tsx" />
       <Button
-        title="Contato"
+        title="Configuração"
         onPress={() => openURL('https://wa.me/5511991719629')}
       ></Button>
     </View>
